@@ -13,7 +13,7 @@ router.get(
 
 router.param("userId",getUserById);
 router.get("/user/:userId",getUser);
-router.get("/users",isLogin,getAllUsers);
+router.get("/users",getAllUsers);
 router.put("/user/:userId",
 // isSignedIn,
 // isAuthenticated,
